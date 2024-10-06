@@ -7,6 +7,84 @@
     <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
+    <header>
+        <h1>Kalkulator Konversi Suhu</h1>
+        <hr/>
+    </header>
+
+    <main>
+        <!--Form Content-->
+        <section>
+            <!--instruksi-->
+            <article>
+                <p>Masukkan suhu derajad Celcius ke kotak di bawah,lalu ketik tombol konversi untuk mendapatkan hasil konversi dalam bentuk fahrenheit</p>
+            </article>
+
+            <!--inputan suhu-->
+            <form class="padding-16">
+                <div>
+                    <label for="input-suhu">Celcius (&deg;C) :</label>
+                </div>
+
+                <textarea id="input-suhu"></textarea>
+
+                <div>
+                <button class="form-button form-button-submit">Konversi</button>
+                <button class="form-button form-button-reset">Reset</button>
+                <button class="form-button form-button-reverse">Reverse</button>
+                </div>
+            </form>
+            
+            <!--hasil inputan-->
+            <div class="padding-16">
+                <div>
+                <label for="hasil-suhu">Fahrenheit (&deg;F) :</label>
+                </div>
+
+                <textarea id="hasil-suhu"></textarea>
+            </div>
+            
+            <!--Cara Kalkulasi-->
+            <div class="padding-16">
+                <div>
+                <label for="how-to-suhu">Cara Kalkulasi :</label>
+                </div>
     
+                    <textarea id="how-to-suhu"></textarea>
+
+            </div>
+        </section>
+
+        <!--Info Content-->
+        <section>
+            <header>
+                <h2>Cara Konversi Celcius (&deg;C) ke Fahrenheit (&deg;F)</h2>
+                <hr/>
+            </header>
+
+            <article>
+                <p>
+                suhu
+                    <span class="suhu-style">S</span>
+                dalam dearajad fahrenheit (&deg;F) sama dengan suhu <span class="suhu-style">S</span> dalam derajad Celcius (&deg;C) kali 9/5 tambah 32.
+
+                </p>
+
+                <p>
+                    <span class="suhu-style">S</span> <sub>(&deg;F)</sub> = (<span class="suhu-style">S</span> <sub>(&deg;C)</sub> x 9/5 ) + 32
+                    <br>
+                    <br>
+                    atau
+                    <br>
+                    <br>
+                    <span class="suhu-style">S</span> <sub>(&deg;F)</sub> = (<span class="suhu-style">S</span> <sub>(&deg;C)</sub> x 1,8 ) + 32
+
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>Made by ek4021</footer>
+
 </body>
 </html>
