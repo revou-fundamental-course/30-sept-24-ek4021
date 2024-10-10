@@ -26,15 +26,14 @@
                     <label for="input-suhu">Celcius (&deg;C) :</label>
                 </div>
 
-                <textarea id="input-suhu"></textarea>
-
-                <div>
-                <button class="form-button form-button-submit">Konversi</button>
-                <button class="form-button form-button-reset">Reset</button>
-                <button class="form-button form-button-reverse">Reverse</button>
-                </div>
+                <input type="number" id="input-suhu"></input>
             </form>
-            
+            <div>
+                <button type="button" onclick="validateForm()" class="form-button form-button-submit">Konversi</button>
+                <button type="button" onclick="reset()" class="form-button form-button-reset">Reset</button>
+                <button type="button" class="form-button form-button-reverse">Reverse</button>
+            </div>
+
             <!--hasil inputan-->
             <div class="padding-16">
                 <div>
@@ -85,6 +84,6 @@
     </main>
 
     <footer>Made by ek4021 Indonesia</footer>
-
+    <script src="js\script.js"></script>
 </body>
 </html>
